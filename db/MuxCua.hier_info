@@ -1,0 +1,51 @@
+|MuxCua
+Y0 <= Mux21:inst.y
+A1 => Mux21:inst.I0
+A2 => Mux21:inst.I1
+S => Mux21:inst.S
+S => Mux21:inst1.S
+S => Mux21:inst2.S
+S => Mux21:inst3.S
+Y1 <= Mux21:inst1.y
+A3 => Mux21:inst1.I0
+A4 => Mux21:inst1.I1
+Y2 <= Mux21:inst2.y
+B1 => Mux21:inst2.I0
+B2 => Mux21:inst2.I1
+Y3 <= Mux21:inst3.y
+B3 => Mux21:inst3.I0
+B4 => Mux21:inst3.I1
+
+
+|MuxCua|Mux21:inst
+y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+I1 => inst2.IN0
+S => inst2.IN1
+S => inst.IN0
+I0 => inst3.IN0
+
+
+|MuxCua|Mux21:inst1
+y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+I1 => inst2.IN0
+S => inst2.IN1
+S => inst.IN0
+I0 => inst3.IN0
+
+
+|MuxCua|Mux21:inst2
+y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+I1 => inst2.IN0
+S => inst2.IN1
+S => inst.IN0
+I0 => inst3.IN0
+
+
+|MuxCua|Mux21:inst3
+y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+I1 => inst2.IN0
+S => inst2.IN1
+S => inst.IN0
+I0 => inst3.IN0
+
+

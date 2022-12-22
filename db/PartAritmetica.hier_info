@@ -1,0 +1,206 @@
+|PartAritmetica
+a <= Display:inst23.sa
+A0 => 74157:inst25.A1
+S1 => 74157:inst25.SEL
+S1 => inst12.IN0
+S1 => inst5.IN1
+S1 => inst26.IN0
+S1 => inst17.IN1
+A2 => 74157:inst25.A3
+A1 => 74157:inst25.A2
+A3 => 74157:inst25.A4
+S0 => inst11.IN0
+S0 => inst5.IN0
+S0 => inst18.IN1
+S0 => inst26.IN1
+S0 => inst17.IN0
+B0 => inst1.IN0
+B1 => inst2.IN0
+B2 => inst3.IN0
+B3 => inst4.IN0
+b <= Display:inst23.sb
+c <= Display:inst23.sc
+d <= Display:inst23.sd
+e <= Display:inst23.se
+f <= Display:inst23.sf
+g <= Display:inst23.sg
+Cout <= Sum4b:inst22.Cout
+
+
+|PartAritmetica|Display:inst23
+sa <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+C => inst.IN0
+C => inst8.IN0
+C => inst12.IN0
+C => inst11.IN0
+C => inst7.IN0
+C => inst24.IN1
+C => inst19.IN1
+C => inst22.IN1
+B => inst3.IN0
+B => inst1.IN3
+B => inst25.IN2
+B => inst23.IN0
+B => inst2.IN0
+B => inst22.IN0
+D => inst3.IN1
+D => inst1.IN2
+D => inst12.IN1
+D => inst11.IN1
+D => inst16.IN2
+D => inst6.IN0
+D => inst24.IN0
+D => inst19.IN0
+D => inst22.IN2
+A => inst.IN2
+A => inst1.IN0
+A => inst9.IN0
+sc <= inst29.DB_MAX_OUTPUT_PORT_TYPE
+sb <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+sd <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+se <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+sf <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+sg <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PartAritmetica|Sum4b:inst22
+S0 <= sumador2b:inst.S
+A0 => sumador2b:inst.A
+B0 => sumador2b:inst.B
+Cin => sumador2b:inst.CIN
+S1 <= sumador2b:inst1.S
+A1 => sumador2b:inst1.A
+B1 => sumador2b:inst1.B
+S2 <= sumador2b:inst2.S
+A2 => sumador2b:inst2.A
+B2 => sumador2b:inst2.B
+S3 <= sumador2b:inst3.S
+A3 => sumador2b:inst3.A
+B3 => sumador2b:inst3.B
+Cout <= sumador2b:inst3.COUT
+
+
+|PartAritmetica|Sum4b:inst22|sumador2b:inst
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CIN => inst1.IN1
+CIN => inst3.IN1
+COUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PartAritmetica|Sum4b:inst22|sumador2b:inst1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CIN => inst1.IN1
+CIN => inst3.IN1
+COUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PartAritmetica|Sum4b:inst22|sumador2b:inst2
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CIN => inst1.IN1
+CIN => inst3.IN1
+COUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PartAritmetica|Sum4b:inst22|sumador2b:inst3
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CIN => inst1.IN1
+CIN => inst3.IN1
+COUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PartAritmetica|Sum4b:inst14
+S0 <= sumador2b:inst.S
+A0 => sumador2b:inst.A
+B0 => sumador2b:inst.B
+Cin => sumador2b:inst.CIN
+S1 <= sumador2b:inst1.S
+A1 => sumador2b:inst1.A
+B1 => sumador2b:inst1.B
+S2 <= sumador2b:inst2.S
+A2 => sumador2b:inst2.A
+B2 => sumador2b:inst2.B
+S3 <= sumador2b:inst3.S
+A3 => sumador2b:inst3.A
+B3 => sumador2b:inst3.B
+Cout <= sumador2b:inst3.COUT
+
+
+|PartAritmetica|Sum4b:inst14|sumador2b:inst
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CIN => inst1.IN1
+CIN => inst3.IN1
+COUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PartAritmetica|Sum4b:inst14|sumador2b:inst1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CIN => inst1.IN1
+CIN => inst3.IN1
+COUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PartAritmetica|Sum4b:inst14|sumador2b:inst2
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CIN => inst1.IN1
+CIN => inst3.IN1
+COUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PartAritmetica|Sum4b:inst14|sumador2b:inst3
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+CIN => inst1.IN1
+CIN => inst3.IN1
+COUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PartAritmetica|74157:inst25
+Y4 <= 25.DB_MAX_OUTPUT_PORT_TYPE
+A4 => 20.IN0
+GN => 12.IN0
+GN => 13.IN0
+SEL => 12.IN1
+SEL => 1.IN0
+B4 => 21.IN0
+Y3 <= 24.DB_MAX_OUTPUT_PORT_TYPE
+A3 => 18.IN0
+B3 => 19.IN0
+Y2 <= 23.DB_MAX_OUTPUT_PORT_TYPE
+A2 => 16.IN0
+B2 => 17.IN0
+Y1 <= 22.DB_MAX_OUTPUT_PORT_TYPE
+A1 => 14.IN0
+B1 => 15.IN0
+
+

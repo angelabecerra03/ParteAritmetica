@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.1/ParteAritmetica/BLOQUEZ.bdf
+source_file = 1, C:/altera/13.1/ParteAritmetica/db/BLOQUEZ.cbx.xml
+design_name = BLOQUEZ
+instance = comp, \Z3~output\, Z3~output, BLOQUEZ, 1
+instance = comp, \Z2~output\, Z2~output, BLOQUEZ, 1
+instance = comp, \Z1~output\, Z1~output, BLOQUEZ, 1
+instance = comp, \Z0~output\, Z0~output, BLOQUEZ, 1
+instance = comp, \S0~input\, S0~input, BLOQUEZ, 1
+instance = comp, \S1~input\, S1~input, BLOQUEZ, 1

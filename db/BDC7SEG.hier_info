@@ -1,0 +1,30 @@
+|BDC7SEG
+a <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+DD => inst.IN0
+DD => inst2.IN1
+DD => inst3.IN3
+CC => inst10.IN0
+CC => inst8.IN0
+CC => inst5.IN1
+CC => inst16.IN0
+CC => inst20.IN0
+CC => inst19.IN0
+AA => inst10.IN1
+AA => inst11.IN1
+AA => inst9.IN0
+AA => inst14.IN1
+AA => inst5.IN0
+AA => inst16.IN2
+BB => inst11.IN0
+BB => inst13.IN0
+BB => inst14.IN0
+BB => inst17.IN1
+BB => inst15.IN0
+b <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+
+

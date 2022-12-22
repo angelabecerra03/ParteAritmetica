@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.1/ParteAritmetica/BLOX.bdf
+source_file = 1, C:/altera/13.1/ParteAritmetica/db/BLOX.cbx.xml
+design_name = BLOX
+instance = comp, \Y0~output\, Y0~output, BLOX, 1
+instance = comp, \Y1~output\, Y1~output, BLOX, 1
+instance = comp, \Y2~output\, Y2~output, BLOX, 1
+instance = comp, \Y3~output\, Y3~output, BLOX, 1
+instance = comp, \S1~input\, S1~input, BLOX, 1
+instance = comp, \B0~input\, B0~input, BLOX, 1
+instance = comp, \S0~input\, S0~input, BLOX, 1
+instance = comp, \B1~input\, B1~input, BLOX, 1
+instance = comp, \B2~input\, B2~input, BLOX, 1
+instance = comp, \B3~input\, B3~input, BLOX, 1

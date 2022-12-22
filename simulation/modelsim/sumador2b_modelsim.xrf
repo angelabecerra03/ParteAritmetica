@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.1/ParteAritmetica/sumador2b.bdf
+source_file = 1, C:/altera/13.1/ParteAritmetica/db/sumador2b.cbx.xml
+design_name = sumador2b
+instance = comp, \S~output\, S~output, sumador2b, 1
+instance = comp, \COUT~output\, COUT~output, sumador2b, 1
+instance = comp, \CIN~input\, CIN~input, sumador2b, 1
+instance = comp, \A~input\, A~input, sumador2b, 1
+instance = comp, \B~input\, B~input, sumador2b, 1
+instance = comp, \inst1~0\, inst1~0, sumador2b, 1
+instance = comp, \inst4~0\, inst4~0, sumador2b, 1

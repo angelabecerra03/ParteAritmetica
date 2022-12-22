@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.1/ParteAritmetica/BloconY.bdf
+source_file = 1, C:/altera/13.1/ParteAritmetica/db/BloconY.cbx.xml
+source_file = 1, C:/altera/13.1/ParteAritmetica/muxcua.bdf
+source_file = 1, C:/altera/13.1/ParteAritmetica/mux21.bdf
+design_name = BloconY
+instance = comp, \Y0~output\, Y0~output, BloconY, 1
+instance = comp, \Y1~output\, Y1~output, BloconY, 1
+instance = comp, \Y2~output\, Y2~output, BloconY, 1
+instance = comp, \Y3~output\, Y3~output, BloconY, 1
+instance = comp, \A2~input\, A2~input, BloconY, 1
+instance = comp, \S0~input\, S0~input, BloconY, 1
+instance = comp, \S1~input\, S1~input, BloconY, 1
+instance = comp, \A1~input\, A1~input, BloconY, 1
+instance = comp, \A4~input\, A4~input, BloconY, 1
+instance = comp, \A3~input\, A3~input, BloconY, 1

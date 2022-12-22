@@ -1,0 +1,178 @@
+$comment
+	File created using the following command:
+		vcd file PartAritmetica.msim.vcd -direction
+$end
+$date
+	Tue Dec 20 01:16:41 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module PartAritmetica_vlg_vec_tst $end
+$var reg 1 ! A0 $end
+$var reg 1 " A1 $end
+$var reg 1 # A2 $end
+$var reg 1 $ A3 $end
+$var reg 1 % B0 $end
+$var reg 1 & B1 $end
+$var reg 1 ' B2 $end
+$var reg 1 ( B3 $end
+$var reg 1 ) S0 $end
+$var reg 1 * S1 $end
+$var wire 1 + a $end
+$var wire 1 , b $end
+$var wire 1 - c $end
+$var wire 1 . Cout $end
+$var wire 1 / d $end
+$var wire 1 0 e $end
+$var wire 1 1 f $end
+$var wire 1 2 g $end
+$var wire 1 3 sampler $end
+$scope module i1 $end
+$var wire 1 4 gnd $end
+$var wire 1 5 vcc $end
+$var wire 1 6 unknown $end
+$var tri1 1 7 devclrn $end
+$var tri1 1 8 devpor $end
+$var tri1 1 9 devoe $end
+$var wire 1 : a~output_o $end
+$var wire 1 ; b~output_o $end
+$var wire 1 < c~output_o $end
+$var wire 1 = d~output_o $end
+$var wire 1 > e~output_o $end
+$var wire 1 ? f~output_o $end
+$var wire 1 @ g~output_o $end
+$var wire 1 A Cout~output_o $end
+$var wire 1 B S1~input_o $end
+$var wire 1 C S0~input_o $end
+$var wire 1 D inst26~combout $end
+$var wire 1 E A3~input_o $end
+$var wire 1 F B3~input_o $end
+$var wire 1 G inst14|inst3|inst~0_combout $end
+$var wire 1 H B1~input_o $end
+$var wire 1 I inst2~combout $end
+$var wire 1 J A1~input_o $end
+$var wire 1 K inst8~combout $end
+$var wire 1 L A0~input_o $end
+$var wire 1 M inst7~0_combout $end
+$var wire 1 N B0~input_o $end
+$var wire 1 O inst1~combout $end
+$var wire 1 P inst14|inst1|inst4~0_combout $end
+$var wire 1 Q A2~input_o $end
+$var wire 1 R inst9~combout $end
+$var wire 1 S B2~input_o $end
+$var wire 1 T inst5~combout $end
+$var wire 1 U inst14|inst2|inst4~0_combout $end
+$var wire 1 V inst14|inst1|inst1~combout $end
+$var wire 1 W inst10~combout $end
+$var wire 1 X inst14|inst3|inst4~0_combout $end
+$var wire 1 Y inst22|inst|inst3~combout $end
+$var wire 1 Z inst22|inst|inst4~combout $end
+$var wire 1 [ inst22|inst1|inst4~0_combout $end
+$var wire 1 \ inst14|inst2|inst1~combout $end
+$var wire 1 ] inst22|inst2|inst4~0_combout $end
+$var wire 1 ^ inst22|inst3|inst1~combout $end
+$var wire 1 _ inst22|inst|inst1~combout $end
+$var wire 1 ` inst22|inst1|inst1~combout $end
+$var wire 1 a inst22|inst2|inst1~0_combout $end
+$var wire 1 b inst22|inst2|inst1~1_combout $end
+$var wire 1 c inst23|inst~combout $end
+$var wire 1 d inst23|inst12~0_combout $end
+$var wire 1 e inst23|inst12~1_combout $end
+$var wire 1 f inst23|inst12~2_combout $end
+$var wire 1 g inst23|inst25~combout $end
+$var wire 1 h inst23|inst1~combout $end
+$var wire 1 i inst23|inst23~combout $end
+$var wire 1 j inst23|inst13~combout $end
+$var wire 1 k inst23|inst5~0_combout $end
+$var wire 1 l inst23|inst18~0_combout $end
+$var wire 1 m inst23|inst15~combout $end
+$var wire 1 n inst22|inst3|inst4~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+1,
+0-
+0.
+0/
+00
+01
+02
+x3
+04
+15
+x6
+17
+18
+19
+0:
+1;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+1P
+0Q
+0R
+0S
+0T
+1U
+1V
+0W
+1X
+1Y
+1Z
+0[
+1\
+0]
+1^
+1_
+0`
+0a
+1b
+1c
+1d
+0e
+1f
+1g
+1h
+0i
+0j
+1k
+0l
+0m
+0n
+$end
+#1000000
